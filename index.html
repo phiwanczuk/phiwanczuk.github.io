@@ -19,6 +19,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <link href='//fonts.googleapis.com/css?family=Nunito:400,300,700' rel='stylesheet' type='text/css'>
 <!-- /fonts -->
 <!-- css files -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/progressbar.css" rel="stylesheet" type="text/css" media="all"/>
@@ -79,7 +81,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <section class="info">
         <div class="container">
             <div class="row">
-                <div class="col-md-3 col-sm-6 col-xs-12 info-col">
+                <div class="col-md-3 col-sm-6 col-xs-12 info-col"
+                     data-aos="flip-left"
+                     data-aos-easing="ease-out-cubic"
+                     data-aos-duration="1700"
+                >
                     <img class="img-responsive img-rounded img-top-style" src="images/output-onlinepngtools.png" alt="test1" />
                 </div>
                 <div class="effect-text">
@@ -96,21 +102,21 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <div class="serv-img">
+                    <div class="serv-img" data-aos="fade-right">
                         <img src="images/serv-img.png" alt="service" class="img-responsive">
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="serv-info">
-                        <div id="serfs" class="serv-details">
+                        <div id="serfs" class="serv-details" data-aos="fade-left">
                             <h4><span class="fa fa-university"></span>Instalacja</h4>
                             <p class="serv">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
                         </div>
-                        <div id="serfs" class="serv-details">
+                        <div id="serfs" class="serv-details" data-aos="fade-left">
                             <h4><span class="fa fa-modx"></span>Konserwacja</h4>
                             <p class="serv">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
                         </div>
-                        <div id="serfs" class="serv-details">
+                        <div id="serfs" class="serv-details" data-aos="fade-left">
                             <h4><span class="fa fa-cubes"></span>Pomiary</h4>
                             <p class="serv">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
                         </div>
@@ -122,9 +128,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <!-- /services section -->
     <!-- testimonial section -->
     <section class="testimonials">
-        <h2 class="text-center">Porady konsumenckie</h2>
+        <h2 class="text-center" data-aos="fade-down">Porady konsumenckie</h2>
         <p class="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-        <div class="container">
+        <div class="container" data-aos="fade-up">
             <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="2000">
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
@@ -181,15 +187,16 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <!-- pricing table -->
     <!-- /skill section -->
     <!-- contact section -->
-    <section class="our-contacts" id="contact">
+    <section class="our-contacts" id="contact" >
+        <div data-aos="zoom-in-up">
         <h3>Kontakt</h3>
         <div class="container">
             <div class="row">
                 <div class="col-lg-4"></div>
                 <div class="col-lg-4">
-                    <div class="contact-details">
+                    <div class="contact-details" >
                         <div class="contact-info">
-                            <div class="address">
+                            <div class="address" >
                                 <i class="glyphicon glyphicon-globe"></i>
                                 <p class="p3">Zachodnia 7/26</p>
                                 <p class="p4">22-100 Chełm</p>
@@ -218,6 +225,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 <div class="col-lg-4">
                 </div>
             </div>
+        </div>
     </section>
     <!-- /contact section -->
     <section class="footer">
@@ -227,6 +235,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <a href="#0" class="cd-top">Top</a>
     <!-- /footer section -->
     <!-- js files -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/SmoothScroll.min.js"></script>
