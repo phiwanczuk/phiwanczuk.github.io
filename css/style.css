@@ -41,11 +41,17 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 .serv-details {
     opacity: 0.8;
-    transition: 0.3s;
+    transition: 0.7s;
     padding: 10px;
     border-radius: 25px;
+
 }
 
+
+#serfs{
+    transition: 0.8s;
+    cursor: pointer;
+}
 
 #serfs:hover {
     color: white !important;
@@ -429,16 +435,16 @@ section.our-services {
 }
 section.our-services h1{
 	font-size: 45px;
-	font-weight: 300;
+	font-weight: 500;
     padding: 20px 0;
     color: black;
 	text-align:center;
 	font-family: 'Nunito', sans-serif;
 }
 section.our-services p.text-center {
-	font-size: 18px;
-    font-weight: 300;
-    color: black;
+	font-size: 20px;
+    font-weight: 400;
+    color: white;
     padding: 20px 0 50px;
 }
 section.our-services h4 {
@@ -449,6 +455,27 @@ section.our-services h4 {
 }
 section.our-services h4 span {
 	margin-right:5px;
+}
+
+#text-centerid{
+    font-size: 1em;
+}
+.our-services div h1{
+    cursor: pointer;
+}
+#main-text{
+
+    margin-bottom: 74px;
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+
+}
+
+#main-text h1{
+    color: white;
+}
+.follow-us{
+    background-color: rgba(0,0,0,0.5);
 }
 section.our-services p.serv {
 	font-size: 17px;
